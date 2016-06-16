@@ -31,19 +31,20 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="!N" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2QP-ff-TB5">
-                                <rect key="frame" x="119" y="282" width="137" height="103"/>
-                                <accessibility key="accessibilityConfiguration" label="middleLabel"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="idv-GT-fBo">
                                 <rect key="frame" x="20" y="617" width="46" height="30"/>
                                 <accessibility key="accessibilityConfiguration" label="threeOfSpadesButton"/>
                                 <state key="normal" title="♠️3"/>
                                 <connections>
                                     <action selector="threeOfSpadesButton:" destination="5Nb-VI-X55" eventType="touchUpInside" id="jEg-m4-GQJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aXp-ot-57g">
+                                <rect key="frame" x="309" y="617" width="46" height="30"/>
+                                <accessibility key="accessibilityConfiguration" label="tenOfHeartsButton"/>
+                                <state key="normal" title="♥️10"/>
+                                <connections>
+                                    <action selector="tenOfHeartsButton:" destination="5Nb-VI-X55" eventType="touchUpInside" id="OPX-Bz-ScP"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sc1-cA-r06">
@@ -62,16 +63,15 @@
                                     <action selector="fourOfClubsButton:" destination="5Nb-VI-X55" eventType="touchUpInside" id="IDb-xf-VqG"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aXp-ot-57g">
-                                <rect key="frame" x="309" y="617" width="46" height="30"/>
-                                <accessibility key="accessibilityConfiguration" label="tenOfHeartsButton"/>
-                                <state key="normal" title="♥️10"/>
-                                <connections>
-                                    <action selector="tenOfHeartsButton:" destination="5Nb-VI-X55" eventType="touchUpInside" id="OPX-Bz-ScP"/>
-                                </connections>
-                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="!N" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2QP-ff-TB5">
+                                <rect key="frame" x="119" y="282" width="137" height="103"/>
+                                <accessibility key="accessibilityConfiguration" label="middleLabel"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.69070225149999998" green="0.90772508829999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
